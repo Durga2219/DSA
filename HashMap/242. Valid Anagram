@@ -12,5 +12,5 @@ class Solution {
             m.remove(ch);
         }
         return m.isEmpty();
-    }
 }
+
