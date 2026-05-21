@@ -3,8 +3,8 @@ class Solution {
         List<List<Integer>> res = new LinkedList<>();
         if(root==null)
         return res;
-        Queue<TreeNode> q = new LinkedList<>();
-        q.add(root);
+        Queue<TreeNode> q = new LinkedList<>()
+q.add(root);
         while(!q.isEmpty()){
             List<Integer> levels = new LinkedList<>();
             int size =q.size();
